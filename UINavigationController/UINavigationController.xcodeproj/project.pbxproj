@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E431A55C1DF1591D00B54FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A55B1DF1591D00B54FD2 /* main.m */; };
+		E431A55F1DF1591D00B54FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A55E1DF1591D00B54FD2 /* AppDelegate.m */; };
+		E431A5671DF1591E00B54FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431A5661DF1591E00B54FD2 /* Assets.xcassets */; };
+		E431A56A1DF1591E00B54FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E431A5681DF1591E00B54FD2 /* LaunchScreen.storyboard */; };
+		E431A5751DF1591E00B54FD2 /* UINavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A5741DF1591E00B54FD2 /* UINavigationControllerTests.m */; };
+		E431A5801DF1591E00B54FD2 /* UINavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A57F1DF1591E00B54FD2 /* UINavigationControllerUITests.m */; };
+		E431A5911DF1597700B54FD2 /* RedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A58F1DF1597700B54FD2 /* RedNavigationController.m */; };
+		E431A5921DF1597700B54FD2 /* RedNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431A5901DF1597700B54FD2 /* RedNavigationController.xib */; };
+		E431A5961DF15EA400B54FD2 /* GreenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A5941DF15EA400B54FD2 /* GreenNavigationController.m */; };
+		E431A5971DF15EA400B54FD2 /* GreenNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431A5951DF15EA400B54FD2 /* GreenNavigationController.xib */; };
+		E431A59B1DF15EC600B54FD2 /* BlueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E431A5991DF15EC600B54FD2 /* BlueNavigationController.m */; };
+		E431A59C1DF15EC600B54FD2 /* BlueNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431A59A1DF15EC600B54FD2 /* BlueNavigationController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E431A5711DF1591E00B54FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E431A54F1DF1591D00B54FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E431A5561DF1591D00B54FD2;
+			remoteInfo = UINavigationController;
+		};
+		E431A57C1DF1591E00B54FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E431A54F1DF1591D00B54FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E431A5561DF1591D00B54FD2;
+			remoteInfo = UINavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E431A5571DF1591D00B54FD2 /* UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431A55B1DF1591D00B54FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E431A55D1DF1591D00B54FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E431A55E1DF1591D00B54FD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E431A5661DF1591E00B54FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E431A5691DF1591E00B54FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E431A56B1DF1591E00B54FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431A5701DF1591E00B54FD2 /* UINavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431A5741DF1591E00B54FD2 /* UINavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerTests.m; sourceTree = "<group>"; };
+		E431A5761DF1591E00B54FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431A57B1DF1591E00B54FD2 /* UINavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431A57F1DF1591E00B54FD2 /* UINavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerUITests.m; sourceTree = "<group>"; };
+		E431A5811DF1591E00B54FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431A58E1DF1597700B54FD2 /* RedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedNavigationController.h; sourceTree = "<group>"; };
+		E431A58F1DF1597700B54FD2 /* RedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedNavigationController.m; sourceTree = "<group>"; };
+		E431A5901DF1597700B54FD2 /* RedNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedNavigationController.xib; sourceTree = "<group>"; };
+		E431A5931DF15EA400B54FD2 /* GreenNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenNavigationController.h; sourceTree = "<group>"; };
+		E431A5941DF15EA400B54FD2 /* GreenNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenNavigationController.m; sourceTree = "<group>"; };
+		E431A5951DF15EA400B54FD2 /* GreenNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenNavigationController.xib; sourceTree = "<group>"; };
+		E431A5981DF15EC600B54FD2 /* BlueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueNavigationController.h; sourceTree = "<group>"; };
+		E431A5991DF15EC600B54FD2 /* BlueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueNavigationController.m; sourceTree = "<group>"; };
+		E431A59A1DF15EC600B54FD2 /* BlueNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueNavigationController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E431A5541DF1591D00B54FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A56D1DF1591E00B54FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A5781DF1591E00B54FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E431A54E1DF1591D00B54FD2 = {
+			isa = PBXGroup;
+			children = (
+				E431A5591DF1591D00B54FD2 /* UINavigationController */,
+				E431A5731DF1591E00B54FD2 /* UINavigationControllerTests */,
+				E431A57E1DF1591E00B54FD2 /* UINavigationControllerUITests */,
+				E431A5581DF1591D00B54FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E431A5581DF1591D00B54FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E431A5571DF1591D00B54FD2 /* UINavigationController.app */,
+				E431A5701DF1591E00B54FD2 /* UINavigationControllerTests.xctest */,
+				E431A57B1DF1591E00B54FD2 /* UINavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E431A5591DF1591D00B54FD2 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E431A55D1DF1591D00B54FD2 /* AppDelegate.h */,
+				E431A55E1DF1591D00B54FD2 /* AppDelegate.m */,
+				E431A58D1DF1593900B54FD2 /* ColorNavigationController */,
+				E431A5661DF1591E00B54FD2 /* Assets.xcassets */,
+				E431A5681DF1591E00B54FD2 /* LaunchScreen.storyboard */,
+				E431A56B1DF1591E00B54FD2 /* Info.plist */,
+				E431A55A1DF1591D00B54FD2 /* Supporting Files */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		E431A55A1DF1591D00B54FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E431A55B1DF1591D00B54FD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E431A5731DF1591E00B54FD2 /* UINavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E431A5741DF1591E00B54FD2 /* UINavigationControllerTests.m */,
+				E431A5761DF1591E00B54FD2 /* Info.plist */,
+			);
+			path = UINavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		E431A57E1DF1591E00B54FD2 /* UINavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E431A57F1DF1591E00B54FD2 /* UINavigationControllerUITests.m */,
+				E431A5811DF1591E00B54FD2 /* Info.plist */,
+			);
+			path = UINavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		E431A58D1DF1593900B54FD2 /* ColorNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E431A58E1DF1597700B54FD2 /* RedNavigationController.h */,
+				E431A58F1DF1597700B54FD2 /* RedNavigationController.m */,
+				E431A5901DF1597700B54FD2 /* RedNavigationController.xib */,
+				E431A5931DF15EA400B54FD2 /* GreenNavigationController.h */,
+				E431A5941DF15EA400B54FD2 /* GreenNavigationController.m */,
+				E431A5951DF15EA400B54FD2 /* GreenNavigationController.xib */,
+				E431A5981DF15EC600B54FD2 /* BlueNavigationController.h */,
+				E431A5991DF15EC600B54FD2 /* BlueNavigationController.m */,
+				E431A59A1DF15EC600B54FD2 /* BlueNavigationController.xib */,
+			);
+			name = ColorNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E431A5561DF1591D00B54FD2 /* UINavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431A5841DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationController" */;
+			buildPhases = (
+				E431A5531DF1591D00B54FD2 /* Sources */,
+				E431A5541DF1591D00B54FD2 /* Frameworks */,
+				E431A5551DF1591D00B54FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINavigationController;
+			productName = UINavigationController;
+			productReference = E431A5571DF1591D00B54FD2 /* UINavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E431A56F1DF1591E00B54FD2 /* UINavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431A5871DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationControllerTests" */;
+			buildPhases = (
+				E431A56C1DF1591E00B54FD2 /* Sources */,
+				E431A56D1DF1591E00B54FD2 /* Frameworks */,
+				E431A56E1DF1591E00B54FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E431A5721DF1591E00B54FD2 /* PBXTargetDependency */,
+			);
+			name = UINavigationControllerTests;
+			productName = UINavigationControllerTests;
+			productReference = E431A5701DF1591E00B54FD2 /* UINavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E431A57A1DF1591E00B54FD2 /* UINavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431A58A1DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationControllerUITests" */;
+			buildPhases = (
+				E431A5771DF1591E00B54FD2 /* Sources */,
+				E431A5781DF1591E00B54FD2 /* Frameworks */,
+				E431A5791DF1591E00B54FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E431A57D1DF1591E00B54FD2 /* PBXTargetDependency */,
+			);
+			name = UINavigationControllerUITests;
+			productName = UINavigationControllerUITests;
+			productReference = E431A57B1DF1591E00B54FD2 /* UINavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E431A54F1DF1591D00B54FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lihonggui;
+				TargetAttributes = {
+					E431A5561DF1591D00B54FD2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+					};
+					E431A56F1DF1591E00B54FD2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E431A5561DF1591D00B54FD2;
+					};
+					E431A57A1DF1591E00B54FD2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E431A5561DF1591D00B54FD2;
+					};
+				};
+			};
+			buildConfigurationList = E431A5521DF1591D00B54FD2 /* Build configuration list for PBXProject "UINavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E431A54E1DF1591D00B54FD2;
+			productRefGroup = E431A5581DF1591D00B54FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E431A5561DF1591D00B54FD2 /* UINavigationController */,
+				E431A56F1DF1591E00B54FD2 /* UINavigationControllerTests */,
+				E431A57A1DF1591E00B54FD2 /* UINavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E431A5551DF1591D00B54FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431A56A1DF1591E00B54FD2 /* LaunchScreen.storyboard in Resources */,
+				E431A5671DF1591E00B54FD2 /* Assets.xcassets in Resources */,
+				E431A59C1DF15EC600B54FD2 /* BlueNavigationController.xib in Resources */,
+				E431A5921DF1597700B54FD2 /* RedNavigationController.xib in Resources */,
+				E431A5971DF15EA400B54FD2 /* GreenNavigationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A56E1DF1591E00B54FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A5791DF1591E00B54FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E431A5531DF1591D00B54FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431A5911DF1597700B54FD2 /* RedNavigationController.m in Sources */,
+				E431A59B1DF15EC600B54FD2 /* BlueNavigationController.m in Sources */,
+				E431A55F1DF1591D00B54FD2 /* AppDelegate.m in Sources */,
+				E431A55C1DF1591D00B54FD2 /* main.m in Sources */,
+				E431A5961DF15EA400B54FD2 /* GreenNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A56C1DF1591E00B54FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431A5751DF1591E00B54FD2 /* UINavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431A5771DF1591E00B54FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431A5801DF1591E00B54FD2 /* UINavigationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E431A5721DF1591E00B54FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E431A5561DF1591D00B54FD2 /* UINavigationController */;
+			targetProxy = E431A5711DF1591E00B54FD2 /* PBXContainerItemProxy */;
+		};
+		E431A57D1DF1591E00B54FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E431A5561DF1591D00B54FD2 /* UINavigationController */;
+			targetProxy = E431A57C1DF1591E00B54FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E431A5681DF1591E00B54FD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E431A5691DF1591E00B54FD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E431A5821DF1591E00B54FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E431A5831DF1591E00B54FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E431A5851DF1591E00B54FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E431A5861DF1591E00B54FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E431A5881DF1591E00B54FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController.app/UINavigationController";
+			};
+			name = Debug;
+		};
+		E431A5891DF1591E00B54FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController.app/UINavigationController";
+			};
+			name = Release;
+		};
+		E431A58B1DF1591E00B54FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UINavigationController;
+			};
+			name = Debug;
+		};
+		E431A58C1DF1591E00B54FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = UINavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.UINavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UINavigationController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E431A5521DF1591D00B54FD2 /* Build configuration list for PBXProject "UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431A5821DF1591E00B54FD2 /* Debug */,
+				E431A5831DF1591E00B54FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E431A5841DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431A5851DF1591E00B54FD2 /* Debug */,
+				E431A5861DF1591E00B54FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E431A5871DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431A5881DF1591E00B54FD2 /* Debug */,
+				E431A5891DF1591E00B54FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E431A58A1DF1591E00B54FD2 /* Build configuration list for PBXNativeTarget "UINavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431A58B1DF1591E00B54FD2 /* Debug */,
+				E431A58C1DF1591E00B54FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E431A54F1DF1591D00B54FD2 /* Project object */;
+}
